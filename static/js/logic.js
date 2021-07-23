@@ -47,7 +47,7 @@ function createMap(Heroes) {
     maxZoom: 18,id: "outdoors-v11",accessToken: API_KEY});
   // Define setup maps
   var baseMaps = {"Grayscale": grayscale,"Satellite": satellite,"Outdoors" : outdoors};
-  var overlayMaps = {"Heroes in Earth": Heroes};
+  var overlayMaps = {"Heroes on Earth": Heroes};
   var myMap = L.map("map", {center: [25.60, -68.23],zoom: 2.5,layers: [grayscale, Heroes]});
   //Layer control
   L.control.layers(baseMaps, overlayMaps, {collapsed: false,position: 'topright'}).addTo(myMap);
