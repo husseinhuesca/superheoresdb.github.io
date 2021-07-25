@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Leaflet Challenge</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -18,6 +25,30 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: 'Bangers', cursive;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://superheroapi-bootcamp.herokuapp.com/index.html">Superheroes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://superheroapi-bootcamp.herokuapp.com/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://superheroapi-bootcamp.herokuapp.com/radar.html">Radar plot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://superheroapi-bootcamp.herokuapp.com/Comparatioindex.html">Scatter Plot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://husseinhuesca.github.io/superheoresdb.github.io/index.html">Map</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- The div that holds our map -->
   <div id="map"></div>
